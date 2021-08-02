@@ -1,0 +1,66 @@
+{
+  "name": "EUR Luxembourg List",
+  "timestamp": "2021-08-02T15:10:26.882Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://raw.githubusercontent.com/euroluxembourg/eurlu-token/main/files/logo.jpg",
+  "keywords": [
+    "uniswap",
+    "eur",
+    "eurlu"
+  ],
+  "tokens": [
+    {
+      "name": "EUR Luxembourg",
+      "address": "0xAf632384eb6A2d3250603779274f9cc79C076F49",
+      "symbol": "EURLU",
+      "decimals": 6,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/euroluxembourg/eurlu-token/main/files/logo.jpg"
+    },
+    {
+      "name": "Euro Tether",
+      "address": "0xC581b735A1688071A1746c968e0798D642EDE491",
+      "symbol": "EURT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoURI": "https://assets.coingecko.com/coins/images/17385/thumb/Tether_full_logo_dm.png?1627537298"
+    },
+    {
+      "name": "Tether USD",
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "symbol": "USDT",
+      "decimals": 6,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xdAC17F958D2ee523a2206206994597C13D831ec7/logo.png"
+    },
+    {
+      "name": "Wrapped Ether",
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "symbol": "WETH",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+      "name": "EUR Luxembourg",
+      "address": "0xAf632384eb6A2d3250603779274f9cc79C076F49",
+      "symbol": "EURLU",
+      "decimals": 6,
+      "chainId": 3,
+      "logoURI": "https://raw.githubusercontent.com/euroluxembourg/eurlu-token/main/files/logo.jpg"
+    },
+    {
+      "name": "Wrapped Ether",
+      "address": "0xc778417E063141139Fce010982780140Aa0cD5Ab",
+      "symbol": "WETH",
+      "decimals": 18,
+      "chainId": 3,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc778417E063141139Fce010982780140Aa0cD5Ab/logo.png"
+    }
+  ]
+}

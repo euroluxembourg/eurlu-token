@@ -1,0 +1,33 @@
+{
+  "name": "eurlu-token",
+  "version": "1.0.0",
+  "description": "EUR Luxembourg (EURLU)",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf ./build/",
+    "precompile": "yarn clean",
+    "compile": "truffle compile",
+    "predeploy": "yarn run compile",
+    "deploy": "truffle migrations --network"
+  },
+  "homepage": "https://github.com/euroluxembourg/eurlu-token#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/euroluxembourg/eurlu-token.git"
+  },
+  "bugs": {
+    "url": "https://github.com/euroluxembourg/eurlu-token/issues",
+    "email": "support@euroluxembourg.com"
+  },
+  "files": [
+    "contracts",
+    "build"
+  ],
+  "devDependencies": {
+    "@openzeppelin/truffle-upgrades": "^1.8.0",
+    "@truffle/hdwallet-provider": "^1.4.2",
+    "ganache-cli": "^6.12.2",
+    "rimraf": "^3.0.2",
+    "truffle": "^5.4.2"
+  }
+}

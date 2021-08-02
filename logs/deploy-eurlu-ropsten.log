@@ -1,0 +1,85 @@
+$ truffle migrations --network ropsten
+
+Compiling your contracts...
+===========================
+> Everything is up to date, there is nothing to compile.
+
+
+
+Starting migrations...
+======================
+> Network name:    'ropsten'
+> Network id:      3
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_deploy.js
+===========
+
+   Deploying 'TetherToken'
+   -----------------------
+   > transaction hash:    0x445a676ac8cf66a1dfc999121502af30271aa3a61823b4a879c448f6b2760638
+   > Blocks: 1            Seconds: 9
+   > contract address:    0xaA51C4Acb7c778E397F3F2812F2b830B8Ba38f16
+   > block number:        10757574
+   > block timestamp:     1627902306
+   > account:             0x0bd8f2207a9948d26B821Ae36f72A29852D6a7Fb
+   > balance:             0.929394140000273
+   > gas used:            1873307 (0x1c959b)
+   > gas price:           30 gwei
+   > value sent:          0 ETH
+   > total cost:          0.05619921 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 2 (block: 10757578)
+
+   Deploying 'ProxyAdmin'
+   ----------------------
+   > transaction hash:    0x467e264049a2634f636d5cfe45260fa5d079611fec50a1202ccc65fe1464a639
+   > Blocks: 1            Seconds: 9
+   > contract address:    0x579B604EDa86D60F1Eb34B78136F344403D7aA78
+   > block number:        10757580
+   > block timestamp:     1627902337
+   > account:             0x0bd8f2207a9948d26B821Ae36f72A29852D6a7Fb
+   > balance:             0.914873540000273
+   > gas used:            484020 (0x762b4)
+   > gas price:           30 gwei
+   > value sent:          0 ETH
+   > total cost:          0.0145206 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 10757581)
+   > confirmation number: 4 (block: 10757584)
+
+   Deploying 'TransparentUpgradeableProxy'
+   ---------------------------------------
+   > transaction hash:    0xc8a0a34a35000dacb1d9a2e3cfc0855777e5b6267aa1987e749b5f04c30867d6
+   > Blocks: 2            Seconds: 41
+   > contract address:    0xAf632384eb6A2d3250603779274f9cc79C076F49
+   > block number:        10757587
+   > block timestamp:     1627902448
+   > account:             0x0bd8f2207a9948d26B821Ae36f72A29852D6a7Fb
+   > balance:             0.893448890000273
+   > gas used:            714155 (0xae5ab)
+   > gas price:           30 gwei
+   > value sent:          0 ETH
+   > total cost:          0.02142465 ETH
+
+   Pausing for 2 confirmations...
+   ------------------------------
+   > confirmation number: 1 (block: 10757588)
+   > confirmation number: 2 (block: 10757589)
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.09214446 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.09214446 ETH
+
+
+Done in 256.37s.

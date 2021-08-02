@@ -1,0 +1,149 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x579B604EDa86D60F1Eb34B78136F344403D7aA78",
+    "txHash": "0xe10c46147076989ef804f0801834dfff0673918892b02dd8b5ff86fc0f51f9e9"
+  },
+  "proxies": [
+    {
+      "address": "0xAf632384eb6A2d3250603779274f9cc79C076F49",
+      "txHash": "0x0a654a3b3e4786db0545938089b93e2a0e6b28a06543232c54c8de737d3cdbad",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "0f7d454bde43871a4153201a6638617a4cffa4c86dfadf032813dc8279a2c4b1": {
+      "address": "0xaA51C4Acb7c778E397F3F2812F2b830B8Ba38f16",
+      "txHash": "0x7a194b813d9b392b5c5dd55eccb91946059b828c23d12dde8730b50d34d9e0c9",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "initialized",
+            "type": "t_bool",
+            "src": "../project:/contracts/TetherToken.sol:25"
+          },
+          {
+            "contract": "Initializable",
+            "label": "initializing",
+            "type": "t_bool",
+            "src": "../project:/contracts/TetherToken.sol:30"
+          },
+          {
+            "contract": "Initializable",
+            "label": "______gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../project:/contracts/TetherToken.sol:65"
+          },
+          {
+            "contract": "ContextUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)50_storage",
+            "src": "../project:/contracts/TetherToken.sol:101"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_balances",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "../project:/contracts/TetherToken.sol:488"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_allowances",
+            "type": "t_mapping(t_address,t_mapping(t_address,t_uint256))",
+            "src": "../project:/contracts/TetherToken.sol:490"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_totalSupply",
+            "type": "t_uint256",
+            "src": "../project:/contracts/TetherToken.sol:492"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_name",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/TetherToken.sol:494"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_symbol",
+            "type": "t_string_storage",
+            "src": "../project:/contracts/TetherToken.sol:495"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "_decimals",
+            "type": "t_uint8",
+            "src": "../project:/contracts/TetherToken.sol:496"
+          },
+          {
+            "contract": "ERC20UpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)44_storage",
+            "src": "../project:/contracts/TetherToken.sol:768"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "_owner",
+            "type": "t_address",
+            "src": "../project:/contracts/TetherToken.sol:117"
+          },
+          {
+            "contract": "OwnableUpgradeSafe",
+            "label": "__gap",
+            "type": "t_array(t_uint256)49_storage",
+            "src": "../project:/contracts/TetherToken.sol:177"
+          },
+          {
+            "contract": "WithBlockedList",
+            "label": "isBlocked",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "../project:/contracts/TetherToken.sol:791"
+          },
+          {
+            "contract": "TetherToken",
+            "label": "isTrusted",
+            "type": "t_mapping(t_address,t_bool)",
+            "src": "../project:/contracts/TetherToken.sol:821"
+          }
+        ],
+        "types": {
+          "t_mapping(t_address,t_bool)": {
+            "label": "mapping(address => bool)"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_bool": {
+            "label": "bool"
+          },
+          "t_array(t_uint256)49_storage": {
+            "label": "uint256[49]"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_mapping(t_address,t_mapping(t_address,t_uint256))": {
+            "label": "mapping(address => mapping(address => uint256))"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_array(t_uint256)44_storage": {
+            "label": "uint256[44]"
+          },
+          "t_array(t_uint256)50_storage": {
+            "label": "uint256[50]"
+          }
+        }
+      }
+    }
+  }
+}
